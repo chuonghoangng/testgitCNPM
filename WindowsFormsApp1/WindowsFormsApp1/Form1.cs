@@ -23,8 +23,10 @@ namespace WindowsFormsApp1
             string pass = txtpassword.Text;
             if(pass == "123" && user =="admin")
             {
-                MessageBox.Show("Success Login");
-
+                MessageBox.Show("Logged in successfully");
+            }
+            else{
+                MessageBox.Show("Login failed");
             }
         }
     }
